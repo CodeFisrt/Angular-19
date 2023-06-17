@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+
+.theme-button{
+    padding: 15px 26px;;
+    font-size: 13px;
+    border-radius: 30px;
+    border: 0px;
+    background-color:  #fecc18 !important;
+    border-color: #fff8ef !important;
+    color: #0b0b0b !important;
+}
+.header{
+    padding: 0 !important;
+  }
+.theme-button:hover{
+    background-color: #0b0b0b !important;
+    color: white !important;
+
+}
+.nav-link:hover {
+    color:  #fecc18 !important;
+}
+
+.text{
+    color:  #fecc18 !important;
+}
+
+  
