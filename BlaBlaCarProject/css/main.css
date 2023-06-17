@@ -3,9 +3,26 @@
 } */
 
 .icon{
-    font-size: 30px;
+    /* font-size: 30px; */
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 8px;
 }
 .nav-icon a{
     text-decoration: none;
     
+}
+.custom-search {
+    color: #777777;
+    background-color: #F5F5F4;
+    height: 40px;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 40px;
+}
+.theme-btn {
+    border-radius: 0px 50px 50px 0px;
+}
+::placeholder {
+    margin-left: 19px;
+    padding-left: 30px;
 }
