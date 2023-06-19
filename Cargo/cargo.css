@@ -1,0 +1,97 @@
+ span i{
+
+    line-height: 40px;
+    padding: 10px 13px;
+    text-align:center;
+    border-radius: 50%;
+    color: #3B3B3B;
+    background-color: #fecc18;
+}
+.headerwrapper{
+padding-top: 13px;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.1s;
+    color:#3b3b3b;
+    text-transform: uppercase;
+}
+.main-con{
+    background-color: #3D3E3E;
+   padding: 10px;
+   margin-bottom: 1px;
+  
+}
+.nav-link-con{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 19px 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.65;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0.8;
+    overflow: hidden;
+    padding: 19px 26px;
+    position: relative;
+    border-radius: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.4s
+}
+.bi::before{
+    
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+}
+.fas{
+    color: #fff;
+    font-weight: 900;
+    font-size: 14px;
+}
+i{
+    padding: 5px;
+    display: flex;
+}
+.middle{
+    background-image: url(images/taxi-stripe.webp);
+    height: 630px;
+    background-repeat: no-repeat;
+    background-color: #fecc18;
+    background-position: center top;
+    
+}
+.carousel-item h1{
+     font-size: 60px;
+    font-weight: 700;
+    line-height: 66px;
+    color: #3B3B3B;
+}
+.carousel-item{
+ transition:none; 
+ /* display: flex;   */
+}
+.carousel-item.active{
+    display: flex;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    color: #3B3B3B;
+}
+img{
+    max-width: 60%;
+}
